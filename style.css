@@ -35,37 +35,79 @@ a {
     color: #ff6347; /* Add hover effect */
 }
 
-.concert-today{
+#concert-today{
     position: relative; /* Enable positioning for child elements */
-    display: inline-block; /* Ensure it wraps content appropriately */
-    width: 100%; /* Set width as needed */
-    max-width: 500px; /* Example: Constrain max width */
+    display: flex; /* Ensure it wraps content appropriately */
+    background-size: 100%; /* Set width as needed */ /* Example: Constrain max width */
+    background-image: url(images/bdod.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
 .overlay-content {
-    position: absolute; /* Allows positioning over the image */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Correct centering alignment */
-    text-align: center; /* Center text and button */
-    color: white; /* Example: White text over dark image */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
-    padding: 20px; /* Optional: Add spacing around the content */
-    border-radius: 10px; /* Optional: Rounded corners for overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10%;
+    justify-content: center;
 }
 
+#gallery-section {
+    width: 100%;
+}
 
 .gallery-grid {
     display: flex;
     grid-template-columns: 2;
+  
 }
 
+h1{
+    text-align: center;
 
+}
+h2{
+   font-size: large;
+    text-align: center;
+}
+h3{
+    font-size: large;
+}
+h4{
+    font-size: medium;
+}
+
+p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
 .inner-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.flex-item{
-    
+.flex-item {
+    position: relative; /* Enable positioning for child elements */
+    width: 100%; /* Adjust to the required size */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
 }
