@@ -3,97 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Val's Secret Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+<header class="header">
     <!-- Navigation on the right(Agenda - Gallery - Tickets - Access) -->
-        <div id="top" class="nav"> 
-            <div class="nav-header">
-                <div class="nav-title">
-                    <a href="#index">Val's secret club</a>
-                </div>
-               <span></span>
-                <div class="nav-links">
-                    <a href="#agenda">Agenda</a>
-                    <a href="#gallery">Gallery</a>
-                    <a href="#Access">Access</a>
-                </div>
-            </div>
-        </div>    
+ 
+     <a href="#index" >Val's secret club</a>
+  
+    <div class="nav-links">
+        <a href="#agenda">Agenda</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#Access">Access</a>
+     </div>
+ 
+ </header>
+<main>  
 <!-- Tonight's concert splash page, get tickets button -->
-        <div id="concert-today">
+<section id="concert-today">
             <img src="https://www.naiz.eus/media/asset_publics/resources/000/987/146/article_main_landscape/1263_musika2.jpg"></img>
-            <div>
+            <div class="overlay-content">
                 <h1>Tonight :</h1>
                 <h2>Bass Drum of Death </h2>
-                
                 <a href="./tickets.html"><button>Get your ticket</button></a>
             </div>
-        </div>
+</section>
     
 <section id="agenda"> 
     <!-- Agenda with upcoming concerts -->
 
-    <div class="section" id="concert-list">
+ <h2> Upcoming concerts</h2>
 
-        <h2 >Upcoming concerts</h2>
-
-        <ul class="flex-container">
-            <li class="flex-item">
-                <h3>Franz ferdinand</h3>
-                <h4> 07/02/2025 </h4>
+         <div class="inner-grid">
+            <div class="flex-item">
                 <img src="images/franzferdinand.jpg" alt="franzferdinand" width="500">
-                <p> Best scottish band is back in town </p>
-                <button> Get tickets </button>    
-            </li>
-            <li class="flex-item">
+                <div class="flex-item">
+                    <h3>Franz ferdinand</h3>
+                    <h4> 07/02/2025 </h4>
+                    <p> Best scottish band is back in town </p>
+                    <button> Get tickets </button>  
+                </div>  
+            </div>
+            <div class="flex-item">
                 <h3>Arctic Monkeys</h3>
                 <h4> 08/02/2025 </h4>
-                <img src="images/arcticmonkeys.jpg" alt="arcticmonkeys" width="500>
+                <img src="images/arcticmonkeys.jpg" alt="arcticmonkeys" width="500">
                 <p> The monkeys aren't just frozen yet </p>
                 <button> Get tickets </button>    
-            </li>
-            <li class="flex-item">
+            </div>
+            <div class="flex-item">
                 <h3>Bombay Bicycle Club </h3>
                 <h4> 09/02/2025 </h4>
-                <img src="images/bbc.jpg" alt="bbc" width="500>
+                <img src="images/bbc.jpg" alt="bbc" width="500">
                 <p> BYOD : Bring Your Own Bike </p>
                 <button> Get tickets </button>    
-            </li>
-            <li class="flex-item">
+            </div>
+            <div class="flex-item">
                 <h3>Fidlar </h3>
                 <h4> 10/02/2025 </h4>
                 <img src="images/fidlar.jpg" alt="fidlar" width="500">
                 <p> Don't bring any, they have it all </p>
                 <button> Get tickets </button>    
-            </li>
-            <li class="flex-item">
+            </div>
+            <div class="flex-item">
                 <h3>Little Simz</h3>
                 <h4> 11/02/2025 </h4>
-                <img src="images/simz.jpg" alt="simz" width="500>
+                <img src="images/simz.jpg" alt="simz" width="500">
                 <p> After the Gorilla guerilla, she's back for good </p>
                 <button> Get tickets </button>    
-            </li>
-            <li class="flex-item">
+            </div>
+            <div class="flex-item">
                 <h3>Nicolas Jaar</h3>
                 <h4> 17/02/2025 </h4>
-                <img src="images/jaar.jpg" alt="jaar" width="500>
+                <img src="images/jaar.jpg" alt="jaar" width="500">
                 <p> He has found his mujer back </p>
                 <button> Get tickets </button>    
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
 </section>
 
 
 <section id="gallery-section">
-    <!-- Photo/video gallery -->
-    <div id="gallery">
-        <!-- Gallery section -->
-        <div id="glr" class="section">
-            <h2 id="gallery-title">Previous concerts</h2>
+    <h2 id="gallery-title">Previous concerts</h2>
             <div class="gallery-grid">
                 <div><img src="images/grid1.png" alt="grid1" width="500"></div>
                 <div><img src="images/grid2.png" alt="yolo" width="500"></div>
@@ -108,6 +101,7 @@
     </div>
 
 </section>
+
 <section id="access"> 
     <!-- Access & location -->
     <h1> Access & location</h1>     
